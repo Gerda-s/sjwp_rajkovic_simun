@@ -7,8 +7,17 @@
     <meta name="author" content="Simun Rajkovic">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skriptni jezici</title>
+    <!-- internal CSS -->
+    <style>
+      .drugi {
+        color: red;
+      }
+    </style>
+    <!-- external CSS -->
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  
   <h1>Zadaće:</h1>
   <ol>
     <li><a href="./zadace/zadaca1/zadaca1.html">Zadaća 1</a></li>
@@ -17,10 +26,17 @@
     <li>Zadaća 4</li>
     <li>Zadaća 5</li>
   </ol>
+  <h2>Dodavanje CSS:</h2>
+  <ul>
+    <li style="color: blue;">Inline</li>
+    <li class="drugi">Internal</li>
+    <li class="treci">External</li>
+  </ul>
+
    <!--  heading elementi -->
      <h1>Naslov 1</h1>
      <h2>Naslov 2</h2>
-     <h3>Naslov 3</h3>
+     <h3 id="naslov">Naslov 3</h3>
      <h4>Naslov 4</h4>
      <h5>Naslov 5</h5>
      <h6>Naslov 6</h6>
@@ -39,7 +55,7 @@
       <h2>Moji top 3</h2>
       <hr>
       <h3>Avengers:Endgame</h3>
-      <p>Bio sam gledao kao je izašao i bilo je jako dobro</p>
+      <p draggable="true">Bio sam gledao kao je izašao i bilo je jako dobro</p>
       <h3>Puss in Boots: The Last Wish</h3>
       <p>Jedan od najboljih animiranih filova koji sam vidio u zadnjih nekoliko godina</p>
       <h3>Star Wars</h3>
