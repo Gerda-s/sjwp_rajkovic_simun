@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+
+        h1{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div{
+            width: 300px;
+            height: 300px;
+            /*  border-radius: 50%; nam daje krug */
+            border-radius: 10px;
+        }
+
+        .box{
+            background-color: blueviolet;
+            border: 5px solid black;
+            margin-bottom: 50px;
+            margin-left: 50px;
+            padding: 50px;
+            border-top: 10px solid blue;
+        }
+
+        .drugi{
+            background-color: chocolate;
+            border:  5px dashed red;
+            margin: 80px 40px 80px 40px;
+            /* ako stavimo 1 brojku u margin onda ce na sve 4, ako stavimo 2 brojke onda ce prvu staviti gore i dolje, a drugu lijevo i desno */
+        } */
+    </style>
+</head>
+<body>
+    <h1>Box model</h1>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti excepturi numquam quia quaerat officiis. Iste quisquam voluptas 
+            necessitatibus, doloribus consectetur quaerat perferendis, sit alias velit, ex iure recusandae architecto autem.
+    </div>
+    <div class="drugi">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam maiores consequatur omnis ad magni vero modi necessitatibus animi 
+            ducimus eveniet incidunt nesciunt, impedit doloremque quia voluptate ea repellendus quidem natus.
+        Officia eaque inventore quasi hic minus harum alias et, iste eligendi, ullam quidem sit debitis dolorum omnis perferendis veniam adipisci necessitatibus 
+        nobis nihil provident ea repudiandae. Cumque adipisci molestiae ea?
+    </div>
+ 
+    
+</body>
+</html>
