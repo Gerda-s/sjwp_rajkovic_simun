@@ -1,0 +1,161 @@
+body{
+    background-color: grey;
+}
+.crven {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background-color: red;
+
+}
+.plav{
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    background-color: darkblue;
+    top: 80px;
+}
+.bijel{
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    top: 20px;
+    left: 150px;
+    height: 115px;
+}
+.plav2{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background-color: blue;
+    
+}
+.bijel_oko{
+    position: absolute;
+    height: 300px;
+    width: 60px;
+    left: 85px;
+    background-color: white;
+}
+.bijel_vodo{
+    position: absolute;
+    height: 70px;
+    width: 400px;
+    top: 115px;
+    background-color: white;
+}
+.crven_oko{
+    background-color: red;
+    position: absolute;
+    height: 300px;
+    width: 30px;
+    left: 100px;
+}
+.crven_vodo{
+    background-color: red;
+    position: absolute;
+    height: 35px;
+    width: 400px;
+    top: 132px;
+
+}
+.trokut{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 50px solid black;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+   
+}
+.plav3{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background-color: rgb(18, 179, 165);
+    z-index: 1;
+}
+.kut{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 200px solid black;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    z-index: 2;
+}
+.zut{
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    background-color: yellow;
+    top: 110px;
+    z-index: 1;
+}
+.crven_bah{
+    background-color: darkred;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+.bijel_bah{
+    background-color: white;
+    position: absolute;
+    height: 300px;
+    width: 110px;
+}
+.tr1{
+    border-left: 70px solid white;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    position: absolute;
+    left: 110px;
+    height: 0px;
+    width: 0px;
+
+}
+.tr2{
+    border-left: 70px solid white;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    position: absolute;
+    left: 110px;
+    top: 70px;
+    height: 0px;
+    width: 0px;
+
+}
+.tr3{
+    border-left: 70px solid white;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    position: absolute;
+    left: 110px;
+    top: 140px;
+    height: 0px;
+    width: 0px;
+ 
+}
+.tr4{
+    border-left: 70px solid white;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    position: absolute;
+    left: 110px;
+    top: 210px;
+    height: 0px;
+    width: 0px;
+
+}
+.tr5{
+    border-left: 70px solid white;
+    border-top: 35px solid transparent;
+    border-bottom: 35px solid transparent;
+    position: absolute;
+    left: 110px;
+    top: 280px;
+    height: 0px;
+    width: 0px;
+
+}
