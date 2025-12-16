@@ -1,0 +1,82 @@
+.linear{
+    height: 700px;
+    width: 550px;
+    background-color: #49225B;
+    background-image: linear-gradient(to top, #49225B, #F5EBFA);
+    position: relative;
+}
+.a1{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-color: #49225B;
+    top: 130px;
+    left: 110px;
+    border-radius: 70px;
+    box-shadow: 2px 2px 16px 12px rgba(73,34,91,0.23);
+}
+.a2{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 110px;
+    border-radius: 70px;
+    background-color: #6E3482;
+    top: 190px;
+    box-shadow: 2px 2px 16px 12px rgba(110,52,130,0.23);
+}
+.a3{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 110px;
+    border-radius: 70px;
+    background-color: #A56ABD;
+    top: 250px;
+    box-shadow: 2px 2px 16px 12px rgba(165,106,189,0.23);
+}
+.a4{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 110px;
+    border-radius: 70px;
+    background-color: #E7DBEF;
+    top: 310px;
+    box-shadow: 2px 2px 16px 12px rgba(231,219,239,0.23);
+}
+.a5{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    left: 110px;
+    border-radius: 70px;
+    background-color: #F5EBFA;
+    top: 370px;
+    box-shadow: 2px 2px 16px 12px rgba(245,235,250,0.23);
+}
+.p1{
+    color: #F5EBFA;
+    position: absolute;
+    left: 50px;
+}
+.p2{
+    color: #E7DBEF;
+    position: absolute;
+    left: 50px;
+}
+.p3{
+    color: white;
+    position: absolute;
+    left: 50px;
+}
+.p4{
+    color: #6E3482;
+    position: absolute;
+    left: 50px;
+}
+.p5{
+    color: #49225B;
+    position: absolute;
+    left: 50px;
+}
