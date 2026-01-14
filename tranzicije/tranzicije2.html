@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a1{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            transition: width 2s 0s ease ;
+
+        }
+        .a1:hover{
+            width: 550px;
+        }
+        .a2{
+            width: 750px;
+            height: 450px;
+            position: relative;
+            background-color: red;
+
+        }
+        .a3{
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            background-color: blue;
+            margin: 20px;
+            transition: width 2s 0s ease;
+        }
+        .a4{
+            position: absolute;
+            height: 150px;
+            width: 150px;
+            background-color: blue;
+            margin: 20px;
+            margin-top: 200px;
+            transition: width 2s 1s ease;
+        }
+ 
+    </style>
+</head>
+<body>
+    <h1>Zad1</h1>
+    <div class="a1"></div>
+    <br>
+    <h1>Zad2</h1>
+    <div class="a2">
+        <div class="a3"></div>
+        <div class="a4"></div>
+    </div>
+    
+</body>
+</html>
