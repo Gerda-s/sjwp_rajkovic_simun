@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 150px;
+            width: 150px;
+            background-color: blue;
+            animation: okret 0.4s ease-in-out;
+            animation-play-state: paused;
+        }
+        div:hover{
+            animation-play-state: running;
+        }
+        @keyframes okret{
+            0%{}
+            100%{
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
