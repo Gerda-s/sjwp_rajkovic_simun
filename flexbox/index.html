@@ -13,6 +13,8 @@
             flex-wrap: wrap;
             justify-content: center; /* pozicija po horizontalnoj osi */
             align-items: center; /* pozicija po vertikali */
+            /* ako je flex-direction: column onda se osi okreću -> justify-content je po vertikalnoj osi onda, a align-items po horizontalnoj */
+            align-content: flex-start; /* radi samo kad je flex-wrap postavljen na wrap */
         }
         .container div{
             background-color: #f1f1f1;
