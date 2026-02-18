@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        font-family: "Sono", sans-serif;
+      }
+        .container{
+            height: 600px;
+            width: 1200px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .plan{
+            background-color: lightgray;
+            height: 200px;
+            width: 350px;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        .button{
+            background-color: lightsalmon;
+        }
+        .title{
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .price{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="plan">
+        <div class="title">Basic</div>
+        <div class="price">$9.99/month</div>
+        <ul class="features">
+          <li>✅ 10GB Storage</li>
+          <li>✅ 1 User</li>
+          <li>🚫 Support</li>
+        </ul>
+        <button class="button">Sign Up</button>
+      </div>
+      <div class="plan">
+        <div class="title">Standard</div>
+        <div class="price">$19.99/month</div>
+        <ul class="features">
+          <li>✅ 50GB Storage</li>
+          <li>✅ 5 Users</li>
+          <li>✅ Phone &amp; Email Support</li>
+        </ul>
+        <button class="button">Sign Up</button>
+      </div>
+      <div class="plan">
+        <div class="title">Premium</div>
+        <div class="price">$49.99/month</div>
+        <ul class="features">
+          <li>✅ 100GB Storage</li>
+          <li>✅ 10 Users</li>
+          <li>✅ 24/7 Support</li>
+        </ul>
+        <button class="button">Sign Up</button>
+      </div>
+    </div>
+</body>
+</html>
