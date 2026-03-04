@@ -28,6 +28,28 @@
       align-items: center;
       justify-content: center;
     }
+    .cowboy{
+      background-color: aqua;
+      /* grid-column: span 2; ovo je isto kao ovo dvoje ispod */ 
+      grid-column-start: 1;
+      grid-column-end: 3;
+
+    }
+    .astronaut{
+      background-color: lightseagreen;
+      order: 1;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    .book{
+      background-color: orangered;
+      /* grid-row:span 2; */
+      /* grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;  
+      grid-row-end: 3; */
+      grid-area: 1 / 3 / 3 / 4; /* row start, row end, column start, column end (to znace ovi brojevi) */
+    }
   </style>
 </head>
 
