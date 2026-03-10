@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 400px;
+            display: grid;
+            gap: 10px;
+            grid-template-columns:1fr 1fr 1fr 1fr    ;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+        p{
+            display: flex;
+            background-color: #242323;
+            color: white;
+            align-items: center;
+            justify-content: left;
+            padding: 20px;
+            border-radius: 10%;
+            
+        }
+        .a{
+            grid-column: span 2;
+        }
+        .b{
+            grid-column: span 2;
+        }
+        .d{
+            grid-column: span 3;
+        }
+        .e{
+            grid-column: span 4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zadatak 5</h1>
+    <div class="container">
+        <p class="a">A</p>
+        <p class="b">B</p>
+        <p class="c">C</p>
+        <p class="d">D</p>
+        <p class="e">E</p>
+    </div>
+
+</body>
+</html>
