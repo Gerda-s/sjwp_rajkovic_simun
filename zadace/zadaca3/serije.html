@@ -4,8 +4,193 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            background-color: #1C1919;
+        }
+        .nav{
+            overflow: hidden;
+            background-color: #302C2C;
+        }
+        .nav a{
+            background-color: #302C2C;
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .nav a:hover{
+            background-color: #f2f2f2;
+            color: black;
+        }
+        .nav a:active{
+            color: white;
+            background-color: #FFCC47;
+        }
+        .container{
+            display: grid;
+            gap: 30px;
+            padding: 20px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+        .container div{
+            height: 500px;
+            width: 335px;
+            border: 4px solid rgb(255,255,255);
+        }
+        p{
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            
+            
+        }
+        img{
+            height: 420px;
+            width: 335px;
+            object-fit: cover;
+        }
+        .container div:hover{
+            transform: scale(1.05);
+        }
+        .nav .active{
+            background-color: #FFCC47;
+            color: black;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="nav">
+        <a class="btn" href="./filmovi.html">Filmovi</a>
+        <a  class="btn active" href="./serije.html">Serije</a>
+        <a  class="btn" href="./igre.html">Igre</a>
+    </div>
+    <div class="container">
+        <div>
+            <a href="https://www.imdb.com/title/tt0903747/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_breaking%20bad" target="_blank">
+            <img src="./Izrezak22.JPG" alt="Breaking Bad">
+            <p>Breaking Bad (2008-2013)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt0944947/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_game%20of" target="_blank">
+            <img src="./Izrezak23.JPG" alt="Game of Thrones">
+            <p>Game of Thrones (2011-2019)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt4574334/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_stranger" target="_blank">
+            <img src="./Izrezak24.JPG" alt="Stranger Things">
+            <p>Stranger Things (2016-2025)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt3032476/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_better" target="_blank">
+            <img src="./Izrezak25.JPG" alt="Better Call Saul">
+            <p>Better Call Saul (2015-2022)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt2442560/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_peaky" target="_blank">
+            <img src="./Izrezak26.JPG" alt="Peaky Blinders">
+            <p>Peaky Blinders (2013-2022)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt0436992/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_doctor%20who" target="_blank">
+            <img src="./Izrezak27.JPG" alt="Doctor Who">
+            <p>Doctor Who (2005-2022)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt0898266/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_the%20big%20bang" target="_blank">
+            <img src="./Izrezak28.JPG" alt="The Big Bang Theory">
+            <p>The Big Bang Theory (2007-2019)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt3581920/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_the%20last%20of%20us" target="_blank">
+            <img src="./Izrezak29.JPG" alt="The Last of Us">
+            <p>The Last of Us (2023- )</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt0773262/?ref_=nv_sr_srsg_0_tt_4_nm_4_in_0_q_dexter" target="_blank">
+            <img src="./Izrezak30.JPG" alt="Dexter">
+            <p>Dexter (2006-2013)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt0412142/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_dr%20house" target="_blank">
+            <img src="./Izrezak31.JPG" alt="Dr. House">
+            <p>Dr. House (2004-2012)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt1190634/?ref_=nv_sr_srsg_0_tt_4_nm_4_in_0_q_the%20boys" target="_blank">
+            <img src="./Izrezak32.JPG" alt="The Boys">
+            <p>The Boys (2019-2026)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt10919420/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_squid%20game" target="_blank">
+            <img src="./Izrezak33.JPG" alt="Squid Game">
+            <p>Squid Game (2021-2025)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt1520211/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_walking%20dead" target="_blank">
+            <img src="./Izrezak34.JPG" alt="Walking Dead">
+            <p>Walking Dead (2010-2022)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt0455275/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_prison" target="_blank">
+            <img src="./Izrezak35.JPG" alt="Prison Break">
+            <p>Prison Break (2005-2017)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt0141842/?ref_=nv_sr_srsg_0_tt_6_nm_2_in_0_q_the%20sop" target="_blank">
+            <img src="./Izrezak36.JPG" alt="The Sopranos">
+            <p>The Sopranos (1999-2007)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt8111088/?ref_=nv_sr_srsg_7_tt_8_nm_0_in_0_q_the%20man" target="_blank">
+            <img src="./Izrezak37.JPG" alt="The Mandalorian">
+            <p>The Mandalorian (2019- )</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt5180504/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_the%20witcher" target="_blank">
+            <img src="./Izrezak38.JPG" alt="The Witcher">
+            <p>The Witcher (2019- )</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt7366338/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_chern" target="_blank">
+            <img src="./Izrezak39.JPG" alt="Chernobyl">
+            <p>Chernobyl (2019)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt0108778/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_friends" target="_blank">
+            <img src="./Izrezak40.JPG" alt="Friends">
+            <p>Friends (1994-2004)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt1475582/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_sherlo" target="_blank">
+            <img src="./Izrezak41.JPG" alt="Sherlock">
+            <p>Sherlock (2010-2017)</p>
+            </a>
+        </div>
+        
+    </div>
 </body>
 </html>

@@ -4,8 +4,193 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            background-color: #1C1919;
+        }
+        .nav{
+            overflow: hidden;
+            background-color: #302C2C;
+        }
+        .nav a{
+            background-color: #302C2C;
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .nav a:hover{
+            background-color: #f2f2f2;
+            color: black;
+        }
+        .nav a:active{
+            color: white;
+            background-color: #FFCC47;
+        }
+        .container{
+            display: grid;
+            gap: 30px;
+            padding: 20px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+        .container div{
+            height: 500px;
+            width: 335px;
+            border: 4px solid rgb(255,255,255);
+        }
+        p{
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            
+            
+        }
+        img{
+            height: 420px;
+            width: 335px;
+            object-fit: cover;
+        }
+        .container div:hover{
+            transform: scale(1.05);
+        }
+        .nav .active{
+            background-color: #FFCC47;
+            color: black;
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="nav">
+        <a class="btn" href="./filmovi.html">Filmovi</a>
+        <a  class="btn" href="./serije.html">Serije</a>
+        <a  class="btn active" href="./igre.html">Igre</a>
+    </div>
+    <div class="container">
+        <div>
+            <a href="https://www.imdb.com/title/tt14629836/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_ultrakill" target="_blank">
+            <img src="./Izrezak42.JPG" alt="Ultrakill">
+            <p>Ultrakill (2020)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt2984712/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_warframe" target="_blank">
+            <img src="./Izrezak43.JPG" alt="Warframe">
+            <p>Warframe (2013)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt14564366/?ref_=nv_sr_srsg_1_tt_6_nm_2_in_0_q_the%20binding%20of%20isaac" target="_blank">
+            <img src="./Izrezak44.JPG" alt="The Binding of Isaac">
+            <p>The Binding of Isaac (2014)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt4795016/?ref_=nv_sr_srsg_4_tt_8_nm_0_in_0_q_dark%20souls%203" target="_blank">
+            <img src="./Izrezak45.JPG" alt="Dark Souls 3">
+            <p>Dark Souls 3 (2016)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt10562854/?ref_=nv_sr_srsg_1_tt_8_nm_0_in_0_q_elden%20ring" target="_blank">
+            <img src="./Izrezak46.JPG" alt="Elden Ring">
+            <p>Elden Ring (2022)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt3814634/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_bloodborne" target="_blank">
+            <img src="./Izrezak47.JPG" alt="Bloodborne">
+            <p>Bloodborne (2015)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt8558306/?ref_=nv_sr_srsg_3_tt_5_nm_3_in_0_q_sekiro" target="_blank">
+            <img src="./Izrezak48.JPG" alt="Sekiro">
+            <p>Sekiro (2019)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt3728808/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_terraria" target="_blank">
+            <img src="./Izrezak49.JPG" alt="Terraria">
+            <p>Terraria (2011)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt8008930/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_slay%20the%20spire" target="_blank">
+            <img src="./Izrezak50.JPG" alt="Slay the Spire">
+            <p>Slay the Spire (2019)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt9616440/?ref_=nv_sr_srsg_1_tt_8_nm_0_in_0_q_dead%20cells" target="_blank">
+            <img src="./Izrezak51.JPG" alt="Dead Cells">
+            <p>Dead Cells (2020)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt12427064/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_risk%20of%20rain%202" target="_blank">
+            <img src="./Izrezak52.JPG" alt="Risk of Rain 2">
+            <p>Risk of Rain 2 (2019)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt8550890/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_doom%20eternal" target="_blank">
+            <img src="./Izrezak53.JPG" alt="Doom Eternal">
+            <p>Doom Eternal (2020)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt2385021/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_borderlands%202" target="_blank">
+            <img src="./Izrezak54.JPG" alt="Borderlands 2">
+            <p>Borderlands 2 (2012)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt5156582/?ref_=vp_close" target="_blank">
+            <img src="./Izrezak55.JPG" alt="ARK: Survival Evolved">
+            <p>ARK: Survival Evolved (2015)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt7079558/?ref_=nv_sr_srsg_1_tt_8_nm_0_in_0_q_dead%20by%20daylight" target="_blank">
+            <img src="./Izrezak56.JPG" alt="Dead by Daylight">
+            <p>Dead by Daylight (2016)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt7728604/?ref_=nv_sr_srsg_1_tt_6_nm_0_in_0_q_subnautica" target="_blank">
+            <img src="./Izrezak57.JPG" alt="Subnautica">
+            <p>Subnautica (2018)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt2103188/?ref_=nv_sr_srsg_4_tt_8_nm_0_in_0_q_gta%205" target="_blank">
+            <img src="./Izrezak58.JPG" alt="GTA 5">
+            <p>GTA 5 (2013)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt7447248/?ref_=nv_sr_srsg_0_tt_4_nm_1_in_0_q_monster%20hunter%20world" target="_blank">
+            <img src="./Izrezak59.JPG" alt="Monster Hunter: World">
+            <p>Monster Hunter: World (2018)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt9288404/?ref_=fn_t_1" target="_blank">
+            <img src="./Izrezak60.JPG" alt="The Forest">
+            <p>The Forest (2018)</p>
+            </a>
+        </div>
+                <div>
+            <a href="https://www.imdb.com/title/tt4780496/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_sea%20of%20thieves" target="_blank">
+            <img src="./Izrezak61.JPG" alt="Sea of Thieves">
+            <p>Sea of Thieves (2018)</p>
+            </a>
+        </div>
+        
+    </div>
 </body>
 </html>
