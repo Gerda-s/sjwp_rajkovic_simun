@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .flex-container{
+            display: flex;
+            height: 100vh;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .flex-container > *, section{  /* pogodi sve unutar i onda sve nakon znaka > */
+    padding: 10px;
+}
+        body{
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .a{
+            background-color: red;
+        }
+        .b{
+            background-color: orange;
+        }
+        .c{
+            background-color:yellow;
+        }
+        .d{
+            background-color: green;
+        }
+        main{
+            display: flex;
+            height: 100vh;
+            justify-content: space-between;
+            flex: 0 100%;
+            flex-wrap: wrap;
+        }
+        section{
+            flex: 0 25%;
+        }
+ 
+        @media (min-width:480px) and (max-width:767px) {
+            section{
+                
+                flex: 0 49%;
+                height: 48%;
+            }
+        }
+
+        @media (max-width:479px) {
+            section{
+                flex: 0 100%;
+                height: 24%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <main>
+            <section class="a">1</section>
+            <section class="b">2</section>
+            <section class="c">3</section>
+            <section class="d">4</section>
+        </main>
+    </div>
+</body>
+</html>
