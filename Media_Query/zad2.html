@@ -4,14 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .flex-container{
+            display: flex;
+            height: 100vh;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        body{
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 33px;
+        }
+        .a{
+            background-color: white;
+            
+        }
+        .b{
+            background-color: lightsalmon;
+            
+        }
+        .c{
+            background-color:lightgreen;
+        }
+        header{
+            background-color: red;
+            flex: 0 100%;
+            height: 10vh;
+        }
+        footer{
+            background-color: skyblue;
+            flex: 0 100%;
+            height: 10vh;
+        }
+        main{
+            display: flex;
+            height: 80vh;
+            justify-content: space-between;
+            flex: 0 100%;
+            flex-wrap: wrap;
+        }
+        section{
+            flex: 0 33%;
+        }
+        @media (min-width:480px) and (max-width:767px) {
+            section:nth-child(2){
+                order: -1;
+                flex: 0 100%;
+                height: 50%;
+            }
+            section:first-child, section:last-child{
+                flex: 0 50%;
+                height: 50%;
+            }
+        }
+
+        
+        @media (max-width:479px) {
+            section{
+                flex: 0 100%;
+                height: 33%;
+            }
+            section:nth-child(2){
+                order: -1;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="flex-container">
         <header>Header</header>
         <main>
-            <section>Main</section>
-            <section>Left</section>
-            <section>Right</section>
+            
+            <section class="b">Left</section>
+            <section class="a">Main</section>
+            <section class="c">Right</section>
         </main>
         <footer>Footer</footer>
     </div>

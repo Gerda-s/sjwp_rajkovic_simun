@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 5px;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            height: 100vh;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        section:nth-child(1), section:nth-child(2){
+            background-color: orange;
+            flex: 0 49%;
+            height: 10vh;
+        }
+        main{
+            display: flex;
+            height: 80vh;
+            justify-content: space-between;
+            flex: 0 100%;
+            flex-wrap: wrap;
+        }
+        section:nth-child(3){
+            background-color: greenyellow;
+            flex: 0 100%;
+            height: 20vh;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <main>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+            <section></section>
+        </main>
+    </div>
+    
+</body>
+</html>
