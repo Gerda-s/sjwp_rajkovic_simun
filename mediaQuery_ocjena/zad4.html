@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            height: 100vh;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .korisnici{
+            background-color: lightblue;
+        }
+        .prodaja{
+            background-color: lightgreen;
+        }
+        .poruke{
+            background-color: lightyellow;
+        }
+        .konverzija{
+            background-color: lightpink;
+        }
+        .zadaci{
+            background-color: lightcoral;
+        }
+        main{
+            display: flex;
+            height: 100vh;
+            justify-content: space-between;
+            flex: 0 100%;
+            flex-wrap: wrap;
+        }
+        section{
+            flex: 0 19%;
+            height: 60vh;
+        }
+        body{
+            color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        @media(min-width:768px) and (max-width:1023px){
+            section{
+                flex: 0 49%;
+                height: 30%;
+            }
+            section:last-child{
+                flex: 0 100%;
+                height: 40%;
+            }
+
+        }
+        @media(max-width:767px){
+            section{
+                flex: 0 100%;
+                height: 20%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <section class="korisnici">Korisnici</section>
+            <section class="prodaja">Prodaja</section>
+            <section class="poruke">Poruke</section>
+            <section class="konverzija">Konverzija</section>
+            <section class="zadaci">Zadaci</section>
+        </main>
+    </div>
+</body>
+</html>

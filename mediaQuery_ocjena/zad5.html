@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            gap: 10px;
+            height: 100vh;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        main{
+            display: flex;
+            height: 100vh;
+            justify-content: space-between;
+            flex: 0 100%;
+            flex-wrap: wrap;
+        }
+        section{
+            text-align: center;
+            flex: 0 24%;
+        }
+        section:first-child{
+            flex: 0 74.7%;
+        }
+        .a{
+            background-color: lightsalmon;
+        }
+        .b{
+            background-color: lightblue;
+        }
+        .c{
+            background-color: lightgreen;
+        }
+        .d{
+            background-color: lightyellow;
+        }
+        .e{
+            background-color: lightpink;
+        }
+        .f{
+            background-color: lightgray;
+        }
+        @media(max-width:767px){
+            section{
+                flex: 0 100%;
+                height: 15%;
+            }
+            section:first-child{
+                flex: 0 100%;
+                height: 25%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <section class="a">Kartica 1</section>
+            <section class="b">Kartica 2</section>
+            <section class="c">Kartica 3</section>
+            <section class="d">Kartica 4</section>
+            <section class="e">Kartica 5</section>
+            <section class="f">Kartica 6</section>
+        </main>
+    </div>
+</body>
+</html>

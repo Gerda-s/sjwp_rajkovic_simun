@@ -6,11 +6,11 @@
     <title>Document</title>
     <style>
         *{
-    margin: 0;
-    box-sizing: border-box;
-}
+            margin: 0;
+            box-sizing: border-box;
+        }
 
-.flex-container{
+.container{
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
@@ -48,15 +48,6 @@ main{
     background: lightgoldenrodyellow;
     flex: 0 100%;
 }
-
-
-@media (max-width: 1023px){
-    .sidebar{
-        width: 200px;
-    }
-}
-
-
 @media (max-width: 759px){
     main{
         flex-wrap: wrap;
@@ -74,7 +65,7 @@ main{
     </style>
 </head>
 <body>
-    <div class="flex-container">
+    <div class="container">
         <header>Header</header>
         <main>
             
