@@ -2,351 +2,188 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Moja web stranica">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Simun Rajkovic">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skriptni jezici</title>
-    <!-- internal CSS -->
-    <style>
-      .drugi {
-        color: red;
-      }
-    </style>
-    <!-- external CSS -->
-    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="zad1.css">
 </head>
 <body>
-  
-  <h1>Zadaće:</h1>
-  <ol>
-    <li><a href="./zadace/zadaca1/zadaca1.html">Zadaća 1</a></li>
-    <li> <a href="./zadace/zadaca2/zadaca2.html">Zadaća 2</a></li>
-    <li> <a href="./zadace/zadaca3/filmovi.html">Zadaća 3</a></li>
-    <li><a href="./bootstrap_ocjena/test.html">Bootstrap zadatak</a></li>
-    <li>Zadaća 5</li>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    
+    <a class="navbar-brand" href="#"><img src="./preuzmi.png" alt="logo" height="50"> Moja Osobna Web Stranica</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Poćetna Stranica</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Vještina</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Igrice</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontaktirajte nas</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  <!-- dio o meni -->
+    <section id="o-meni" class="section-pad bg-light-custom">
+    <div class="container">
+      <div class="px-4 pt-5 my-5 text-center border-bottom"> 
+    <h1 class="display-4 fw-bold text-body-emphasis">O meni</h1>
+      </div>
+      <div class="row gy-4 align-items-center">
+        <div class="col-md-6">
+          <div class="about-card">
+            <p>Zovem se Šimun Rajković, student sam treće godine Tehničke škole Slavonski Brod za smjer Tehničar za računalstvo. </p>
+            <p>Veliki sam ljubitelj videoigra i puno ih igram u slobodno vrijeme, pogotovo kad sam na pozivu s prijateljima i kad zajedno igramo. Još i ponekad izađem van s prijateljima i igramo košakru kad je vrijeme lijepo.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="info-card text-center p-4">
+                <h6>Obrazovanje</h6>
+                <img src="./preuzmi (4).png" alt="">
+                <p class="small mb-0">Učenik Tehničke škole Slavonski Brod<br/>Tehničar za računalstvo, 3. godina</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="info-card text-center p-4">
+                <h6>Lokacija</h6>
+                <img src="./preuzmi (3).png" alt="lokacija">
+                <p class="small mb-0">Slavonski Brod<br/>Hrvatska</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="info-card text-center p-4">
+                <h6>Hobi br. 1</h6>
+                <img src="./preuzmi (2).png" alt="kontroler">
+                <p class="small mb-0">Video igrice</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="info-card text-center p-4">
+                <h6>Hobi br. 2</h6>
+                <img src="./preuzmi (1).png" alt="košarkaška lopta">
+                <p class="small mb-0">Košarka</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ======= HOBIJI ======= -->
+  <section id="hobiji" class="section-pad">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Moji hobiji</h2>
+      </div>
+      <div class="row g-4 justify-content-center">
+ 
+        <!-- Hobi 1: Gaming -->
+        <div class="col-lg-6 col-md-10">
+          <div class="hobby-card h-100">
+            <div class="hobby-icon"><i class="bi bi-controller">
+                <img src="./preuzmi (2).png" alt="">
+            </i></div>
+            <h4>Video igrice</h4>
+            <p>Odkad sam bio mali igre su me dosta privlačile kao izvor zabave ili samo pa provodim vrijeme radeći nešto. Neki žanrovi koji mi se sviđaju su preživljavanje, akcija, run-n-gun, souls igre, rougelike i još neki.</p>
+            <p>Uz single-player naslove, volim i igrati igre s prijateljima. Neke igre koje nas nekoliko igra su Subnautica 2, ARK, CS2 i druge.</p>
+          </div>
+        </div>
+ 
+        <!-- Hobi 2: Košarka -->
+        <div class="col-lg-6 col-md-10">
+          <div class="hobby-card h-100">
+            <div class="hobby-icon"><i class="bi bi-dribbble">
+                <img src="./preuzmi (1).png" alt="">
+            </i></div>
+            <h4>Košarka</h4>
+            <p>Nije da me sportovi nešto previše privlače, ali zabavno je igrati košaku ovako nekad kad se nas nekoliko skupi da igramo iz zezancije. Ovako mi se i sviđa jer nije sad da igramo za nešto nego se samo zabavljamo i igramo laganini</p>
+          </div>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+        <div class="section-header text-center mb-5">
+        <h2><a href="./zad1.html">Kontaktirajte nas ovdje!</a></h2>
+      </div>
+      <h3>Linkovi za zadaće:</h3>
+    <ol>
+        <li><a href="/zadace/zadaca1/zadaca1.html">Zadaća 1</a></li>
+        <li> <a href="/zadace/zadaca2/zadaca2.html">Zadaća 2</a></li>
+        <li> <a href="/zadace/zadaca3/filmovi.html">Zadaća 3</a></li>
   </ol>
-  <h2>Dodavanje CSS:</h2>
-  <ul>
-    <li style="color: blue;">Inline</li>
-    <li class="drugi">Internal</li>
-    <li class="treci">External</li>
-  </ul>
+    </div>
+  </section>
 
-   <!--  heading elementi -->
-     <h1>Naslov 1</h1>
-     <h2>Naslov 2</h2>
-     <h3 id="naslov">Naslov 3</h3>
-     <h4>Naslov 4</h4>
-     <h5>Naslov 5</h5>
-     <h6>Naslov 6</h6>
-
-    <!--  paragraf element -->
-      <!-- break element <br> -->
-       <!-- hr element -->
-      <p>Lorem ipsum dolor sit amet consectetur <br> <hr> adipisicing elit. Voluptas perspiciatis incidunt eligendi dicta id 
-        soluta aperiam repudiandae architecto rem, quis laudantium tempora enim sit? Recusandae architecto repellat necessitatibus 
-        quasi quidem.
-      Voluptates sit cum quasi temporibus, mollitia placeat deserunt doloremque id blanditiis sapiente adipisci fuga laborum cupiditate 
-      quam? Aspernatur vitae aliquam aperiam temporibus adipisci cupiditate, laudantium doloribus eos deserunt ipsum beatae.</p>
-      
-      <h1>Najbolji filmovi</h1>
-      <br>
-      <h2>Moji top 3</h2>
-      <hr>
-      <h3>Avengers:Endgame</h3>
-      <p draggable="true">Bio sam gledao kao je izašao i bilo je jako dobro</p>
-      <h3>Puss in Boots: The Last Wish</h3>
-      <p>Jedan od najboljih animiranih filova koji sam vidio u zadnjih nekoliko godina</p>
-      <h3>Star Wars</h3>
-      <p>Ovo ljudi smatraju najbolju filmsku trilogiju ikad napravljenu</p>
-      <!-- Oblikovanje teksta -->
-       <p>Mi smo <strong>3.E razred</strong>. Idemo u <em>Tehničku školu</em>. <mark>Razrednik</mark> name je <sub>prof.</sub> Ivan <sup>Benič</sup>. Ima nas <del>24</del> 26 u razredu</p>
-       <pre>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugiat optio omnis. 
-        Consequuntur, veritatis? Exercitationem libero id iusto optio. Laudantium, laboriosam. 
-        Neque eum, saepe ipsa mollitia molestias natus est hic?
-       </pre>
-
-       <!-- Liste, ul-unordered liste, ol-ordered liste, dl-definition liste -->
-        <h2>Voćni desert u čaši</h2>
-        <h3>Sastojci:</h3>
-        <ul type="square">
-          <li>230 g kreme za kremšnite</li>
-          <li>500 ml hladnog mlijeka</li>
-          <li>3-4 žlice pekmeza od višanja</li>
-        </ul>
-        <h3>Priprema</h3>
-        <ol start="5" type="i" reversed>
-          <li>Prah za kremu pomiješati sa pola litre hladnog mlijeka te miksati 2-3 minute dok se ne dobije jednolična krema. </li>
-          <li>Pekmez od višanja rastopiti na blagoj vatri i ohladiti.</li>
-          <li>U desertne čaše rasporediti sloj pripremljene kreme pa žlicu i pol voćnog nadjeva te ponoviti još jednom postupak i završiti sa voćnim slojem. Posipati nasjeckanim pistacijem i staviti u hladnjak na hlađenje. </li>
-        </ol>
-
-        <h2>Definition liste</h2>
-        <dl>
-          <dt>Struja</dt>
-          <dd>Usmjereno gibanje eletrona kroz vodić</dd>
-          <dt>Napon</dt>
-          <dd>Razlika potencijala između dvije točke</dd>
-
-        </dl>
-        <h2>Nested liste</h2>
-        <ul>
-          <li>A</li>
-          <li>B</li>
-          <ol>
-            <li>B1</li>
-            <li>B2</li>
-            <ul>
-              <li>B2a</li>
-              <ul>
-                <li>B2aa</li>
-                <li>B2ab</li>
-              </ul>
-              <li>B2b</li>
-              <li>B2c</li>
-            </ul>
-            <li>B3</li>
-            <ol>
-              <li>B31</li>
-              <li>B32</li>
-            </ol>
-
-          </ol>
-          <li>C</li>
-         </ul>
-
-         <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nam sapiente, accusamus voluptas perspiciatis 
-          fugiat id reiciendis nobis nostrum sed sint eos possimus ea. Sapiente rem temporibus quas suscipit perspiciatis?
-         Voluptatem, ad. Veritatis quia corrupti architecto, aliquid harum id nulla alias ullam et unde, dignissimos doloribus tenetur 
-         reiciendis nostrum nemo accusamus temporibus fugiat saepe ipsum culpa sit mollitia? Debitis, eligendi?</small>
-         <br>
-         <samp>damn fr bro?!?!? aw helll nahh</samp>
-          <br>
-         <ins>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eius animi commodi tempore perferendis provident ad neque 
-          quas excepturi? Dolor quo deserunt quos illum officia similique dolore hic, non sunt.</ins>
-          <br>
-         <blockquote>leon soldan i hrvoje dangubić se vole dirati</blockquote>
-         <br> 
-         <details>ovo su detalji</details>
-         <h2>Learning Web Development</h2>
-         <ol type="I">
-          <li>Background skills</li>
-          <ol type="A">
-            <li>Unix Commands</li>
-            <li>Vim Text Editor</li>
-          </ol>
-          <li>HTML</li>
-          <ol type="A">
-            <li>Minimal Page</li>
-            <li>Headings</li>
-            <li>Tags</li>
-            <li>Lists</li>
-            <ol type="i">
-              <li>Unordered</li>
-              <li>Ordered</li>
-              <li>Definiton</li>
-              <li>Nested</li>
-            </ol>
-            <li>Links</li>
-            <ol type="i">
-              <li>Absolute</li>
-              <li>Relative</li>
-            </ol>
-            <li>Images</li>
-          </ol>
-          <li>CSS</li>
-          <ol type="A">
-            <li>Anatomy</li>
-            <li>Basic Selectors</li>
-            <ol type="i">
-              <li>Element</li>
-              <li>Class</li>
-              <li>ID</li>
-              <li>Group</li>
-            </ol>
-            <li>The DOM</li>
-            <li>Advanced Selectors</li>
-            <li>Box Model</li>
-          </ol>
-          <li>Programming</li>
-          <ol type="A">
-            <li>Python</li>
-            <li>JavaScript</li>
-          </ol>
-          <li>Database</li>
-          <ol type="A">
-            <li>Flat File</li>
-            <li>Relational</li>
-          </ol>
-         </ol>
-
-
-         <h2>Anchor elementi</h2>
-         <p>Web stranicu škole možete vidjeti <a href="https://tssb.hr/" target="_blank" download="web_stranica">ovdje.</a></p>
-         <br>
-         <h2>Moji top 5 najdražih websitova</h2>
-         <ol type="1">
-          <li><a href="https://hr.wikipedia.org/wiki/Glavna_stranica" target="_blank">Wikipedija</a></li>
-          <li><a href="https://enciklopedija.hr/" target="_blank">Hrvatska enciklopedija</a></li>
-          <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-          <li><a href="https://www.rottentomatoes.com/" target="_blank">Rotten Tomatoes</a></li>
-          <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
-         </ol>
-         <br>
-         <h2>Img element</h2>
-         <!-- slika s weba -->
-         <img src="https://www.wish.hr/wp-content/uploads/2014/05/dupin_.jpg" alt="Slika dupina" width="400px">
-         <!-- slika s našeg računala -->
-          <hr>
-          <img src="./slike/dupin_ (1).jpg" alt="Slika dupina">
-          <br>
-          <br>
-          <h1>Moj je rođendan!</h1>
-          <h2>Događa se 12 svibnja</h2>
-          <img src="https://www.veble.hr/wp-content/uploads/2020/04/ff_sretan_rodendan.jpg" alt="Rođendanska torta" height="400px">
-          <h3>Šta treba donijeti:</h3>
-          <ul>
-            <li>Baloni (Ja volim balone)</li>
-            <li>Torta (Ja sam jako dobar u jedenju torti)</li>
-            <li>Apetit (Biti će puno hrane)</li>
+  
+  
+  
+  <!-- footer -->
+  <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3"> <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            aria-label="Bootstrap"> <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+              <use xlink:href="#bootstrap"></use>
+            </svg> </a>
+          <p class="text-body-secondary">© 2025</p>
+        </div>
+        <div class="col mb-3"></div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
           </ul>
-          <h3>Ovdje trebate ići:</h3>
-          <a href="https://maps.app.goo.gl/pwsc8fdG4pem6ajD9" target="_blank">Google map link</a>
-          <!-- ./ pregleda u trenutačnom folderu -->
-           <!-- ../ pregleda iz svih foldera -->
-          <hr>
-          <br>
-          <h2>Tablica u HTML-u</h2>
-          <table border="1">
-            <tr>
-              <th colspan="2">Ime i prezime</th>
-              <th>Razred</th>
-            </tr>
-            <tr>
-              <td>Marko</td>
-              <td>Bekić</td>
-              <td rowspan="3">3.E</td>
-            </tr>
-            <tr>
-              <td>Patrik</td>
-              <td>Jagodar</td>
-            </tr>
-            <tr>
-              <td>Ana</td>
-              <td>Čondić</td>
-            </tr>
-          </table>
-          <hr>
-          <br>
-          <h3>Zadatak 1</h3>
-          <table border="1">
-            <tr>
-              <th>Name</th>
-              <th>Age</th>
-              <th>Country</th>
-            </tr>
-            <tr>
-              <td>Harry Depp</td>
-              <td>28</td>
-              <td>Britain</td>
-            </tr>
-            <tr>
-              <td>John Smith</td>
-              <td>35</td>
-              <td>USA</td>
-            </tr>
-            <tr>
-              <td>Ram Krishna</td>
-              <td>19</td>
-              <td>Nepal</td>
-            </tr>
-          </table>
-          <h3>Zadatak 2</h3>
-          <table border="1">
-            <tr>
-              <th>S.N.</th>
-              <th>Item</th>
-              <th>Quantity</th>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Apple</td>
-              <td>2</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Mango</td>
-              <td>2</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Orange</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td colspan="2">Total</td>
-              <td>5</td>
-            </tr>
-          </table>
-          <h3>Zadatak 3</h3>
-          <table border="1">
-            <tr>
-              <th>Name</th>
-              <th>Subject</th>
-              <th>Marks</th>
-            </tr>
-            <tr>
-              <td rowspan="3">Mark Smith</td>
-              <td>English</td>
-              <td>67</td>
-            </tr>
-            <tr>
-              <td>Maths</td>
-              <td>82</td>
-            </tr>
-            <tr>
-              <td>Science</td>
-              <td>91</td>
-            </tr>
-          </table>
-          <h3>Zadatak 4</h3>
-          <table border="1">
-            <tr>
-              <th>No.</th>
-              <th>Full name</th>
-              <th>Position</th>
-              <th>Salary</th>
-              <th>Type</th>
-            </tr>
-            <tr>
-              <td>1</td>
-              <td>Bill Gates</td>
-              <td>Founder Microsoft</td>
-              <td>$1000</td>
-              <td rowspan="4">Company Founder</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Steve Jobs</td>
-              <td>Founder Apple</td>
-              <td>$1200</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Larry Page</td>
-              <td>Founder Google</td>
-              <td>$1100</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Mark Zuckeberg  </td>
-              <td>Founder Facebook</td>
-              <td>$1300</td>
-            </tr>
-          </table> 
-          <hr>
-          <br>
+        </div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
 </body>
 </html>
