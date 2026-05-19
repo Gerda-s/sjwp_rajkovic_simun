@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktirajte nas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    
+<div class="container">
+    <div class="form-wrapper">
+ 
+      <a href="test.html" class="back-link">← Natrag na glavnu stranicu</a>
+ 
+      <h1 class="form-title">Kontaktirajte Nas</h1>
+      <p class="form-subtitle">Ispunite formu i javit ćemo vam se što prije.</p>
+ 
+      <form action="" method="GET">
+ 
+        <!-- Ime i Email — prvi red -->
+        <div class="row g-3 mb-3">
+          <div class="col-md-6">
+            <label for="ime" class="form-label">Ime i prezime</label>
+            <input type="text" class="form-control" id="ime" name="ime" placeholder="npr. Šimun Rajković" required />
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email adresa</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="npr. simun@gmail.com" required />
+          </div>
+        </div>
+ 
+        <!-- Datum — drugi red -->
+        <div class="mb-3">
+          <label for="datum" class="form-label">Unesite željeni datum</label>
+          <input type="date" class="form-control" id="datum" name="datum" />
+        </div>
+ 
+        <!-- Poruka — treći red -->
+        <div class="mb-4">
+          <label for="poruka" class="form-label">Poruka</label>
+          <textarea class="form-control" id="poruka" name="poruka" placeholder="Napišite svoju poruku ovdje" required></textarea>
+        </div>
+ 
+        <!-- Gumb -->
+        <button type="submit" class="btn-posalji">Pošalji Poruku</button>
+ 
+      </form>
+ 
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
